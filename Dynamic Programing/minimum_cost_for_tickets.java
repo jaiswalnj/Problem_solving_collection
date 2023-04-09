@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public int mincostTickets(int[] days, int[] costs) {
         int n = days.length;
@@ -19,4 +21,4 @@ class Solution {
         
         return dp[n];
     }
-}`
+}

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     private int lowerBound(int[] arr, int key) {
         int lo = 0;

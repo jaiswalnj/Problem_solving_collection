@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     int findMaxSatisfaction(int[] satisfaction, int[][] memo, int index, int time) {        if (index == satisfaction.length) {
             return 0;
