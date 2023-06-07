@@ -15,7 +15,6 @@ class Solution {
         }
         return left;
     }
-    
     public int[] longestObstacleCourseAtEachPosition(int[] obstacles) {
         int n = obstacles.length, lisLength = 0;
         
